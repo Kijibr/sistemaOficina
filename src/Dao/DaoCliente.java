@@ -71,7 +71,7 @@ public class DaoCliente {
                 cli.setComplemento(rs.getString("complemento"));
             }
             else{
-                JOptionPane.showMessageDialog(null, "Este cliente não foi encontrado1");
+                JOptionPane.showMessageDialog(null, "Este cliente não foi encontrado!");
             }        
          p.close();
         }
@@ -94,7 +94,7 @@ public class DaoCliente {
                 cli.setComplemento(rs.getString("complemento"));
             }
             else{
-                JOptionPane.showMessageDialog(null, "Este cliente não foi encontrado1");
+                JOptionPane.showMessageDialog(null, "Este cliente não foi encontrado!");
             }        
          p.close();
         }

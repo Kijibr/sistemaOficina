@@ -328,7 +328,7 @@ public class FrmCliente extends javax.swing.JFrame {
     private void btsaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btsaveActionPerformed
        passa_dados();
        dao.cadastrar(cli);
-       JOptionPane.showMessageDialog(null, "Cliente Cadastrado !" + cli.getNome());
+       JOptionPane.showMessageDialog(null, "Cliente Cadastrado ! " + cli.getNome());
        limpar();
     }//GEN-LAST:event_btsaveActionPerformed
 
