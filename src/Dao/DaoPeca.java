@@ -102,7 +102,7 @@ public class DaoPeca {
             List<Peca> pecas;
             pecas = new ArrayList<Peca>();
              PreparedStatement p = con.prepareStatement
-                     ("select * from pecas");
+                     ("select * from peca");
              rs = p.executeQuery();
              
              while(rs.next()) {
